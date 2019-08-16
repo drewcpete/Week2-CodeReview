@@ -22,11 +22,10 @@ $(document).ready(function() {
       $(".sharp").show();
     } else {
       $(".ruby").show();
-    }
+    }    
     $(".close").click(function() {
         $(".modal").hide();
       });
-
     if (material === 0) {
       $("#mat").text("fabric");
     } else if (material === 1) {
@@ -36,7 +35,6 @@ $(document).ready(function() {
     } else {
       $("#mat").text("fancy wood");
     }
-
     if (emotion === 0) {
       $("#emo").text("rage");
     } else if (emotion === 1) {
@@ -46,7 +44,6 @@ $(document).ready(function() {
     } else {
       $("#emo").text("kidney damage");
     }
-
     if (alcohol === 0) {
       $("#alc").text("the taste of medicine");
     } else if (alcohol === 1) {
@@ -56,7 +53,6 @@ $(document).ready(function() {
     } else {
       $("#alc").text("liver damage");
     }
-
     if (sport === 0) {
       $("#spo").text("Rip City");
     } else if (sport === 1) {
@@ -66,7 +62,6 @@ $(document).ready(function() {
     } else {
       $("#spo").text("the best show on tv");
     }
-
     if (currency === 0) {
       $("#cur").text("simplicity");
     } else if (currency === 1) {
@@ -76,7 +71,6 @@ $(document).ready(function() {
     } else {
       $("#cur").text("anarchism");
     }
-
     if (topping === 0) {
       $("#top").text("a dry mouth");
     } else if (topping === 1) {
@@ -86,7 +80,6 @@ $(document).ready(function() {
     } else {
       $("#top").text("being gross");
     }
-
     if (avocado === 0) {
       $("#avo").text("an ingredient");
     } else if (avocado === 1) {
@@ -94,7 +87,6 @@ $(document).ready(function() {
     } else {
       $("#avo").text("are just avocados");
     }
-
     $("#words").show();
     event.preventDefault();
   });
