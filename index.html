@@ -12,8 +12,8 @@
     <div class="jumbotron">
       <h1>Lets take a quiz to see what language you should learn:</h1>
     </div>
-    <div class="container">
-      <div class="form-group">
+    <div class="container row">
+      <div class="form-group col-md-6" >
         <form id="languageForm">
           <label for="question1">Favorite Material Type:</label>
           <select class="form-control" id="question1">
@@ -67,26 +67,37 @@
         </form>
         <br>
       </div>
+
+
+      <div class="col-md-6" >
+        <br>
+        <br>
+        <p>You should learn <span></span></p>
+        <br>
+      </div>
+
+
+
       <br>
       <br>
     </div>
     <div class="results container">
-      <div id="python" class="modal alert alert-danger">
+      <div class="python modal alert alert-danger">
         <p>You should learn Python!</p>
         <span class="close">&times;</span>
         <img src="img/python.jpeg" alt="a python">
       </div>
-      <div id="go" class="modal alert alert-danger">
+      <div class="go modal alert alert-danger">
         <p>You should learn Go!</p>
         <span class="close">&times;</span>
         <img src="img/go.png" alt="a go board">
       </div>
-      <div id="sharp" class="modal alert alert-danger">
+      <div class="sharp modal alert alert-danger">
         <p>You should learn C#!</p>
         <span class="close">&times;</span>
         <img src="img/csharp.jpg" alt="c# logo">
       </div>
-      <div id="ruby" class="modal alert alert-danger">
+      <div class="ruby modal alert alert-danger">
         <p class="modal-text">You should learn Ruby!</p>
         <span class="close">&times;</span>
         <img src="ruby.jpeg" alt="a raw ruby">

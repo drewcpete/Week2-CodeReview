@@ -17,13 +17,13 @@ $(document).ready(function() {
     // debugger;
 
     if (result === 0){
-      $("#python").show();
+      $(".python").show();
     } else if ( result === 1 ) {
-      $("#go").show();
+      $(".go").show();
     } else if ( result === 2 ) {
-      $("#sharp").show();
+      $(".sharp").show();
     } else {
-      $("#ruby").show();
+      $(".ruby").show();
     }
     $(".close").click(function() {
         $(".modal").hide();

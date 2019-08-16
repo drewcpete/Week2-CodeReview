@@ -1,4 +1,4 @@
-#python, #go, #sharp, #ruby {
+.python, .go, .sharp, .ruby {
   display: none;
 }
 .results {
@@ -8,8 +8,7 @@
 
 }
 body {
-  background: rgb(114,20,177);
-  background: radial-gradient(circle, rgba(114,20,177,1) 5%, rgba(24,224,142,1) 50%, rgba(252,176,69,0.8434005591054313) 100%);
+  background-color: lightblue;
 }
 .btn {
   margin-top: 50px;
@@ -19,13 +18,16 @@ body {
   margin-bottom: 50px;
 }
 form {
-  float: left;
+  float: right;
 }
 
 h1 {
   text-align: center;
 }
-
+.jumbotron {
+  width:90%;
+  margin: 5%;
+}
 .modal {
   position: fixed;
   top: 50%;
@@ -43,5 +45,5 @@ h1 {
   cursor: pointer;
 }
 label {
-  
+
 }
