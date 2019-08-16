@@ -9,7 +9,7 @@
 }
 body {
   background: rgb(114,20,177);
-background: radial-gradient(circle, rgba(114,20,177,1) 0%, rgba(24,224,142,1) 50%, rgba(252,176,69,0.8434005591054313) 100%);
+  background: radial-gradient(circle, rgba(114,20,177,1) 5%, rgba(24,224,142,1) 50%, rgba(252,176,69,0.8434005591054313) 100%);
 }
 .btn {
   margin-top: 50px;
@@ -27,9 +27,10 @@ h1 {
 }
 
 .modal {
-  margin: 0 auto;
-  margin-left: 45%;
-  margin-top:20%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: auto;
   height:auto;
 
@@ -40,4 +41,8 @@ h1 {
 }
 .close {
   cursor: pointer;
+}
+label {
+  color: lightgray;
+  text-decoration-color: white;
 }
