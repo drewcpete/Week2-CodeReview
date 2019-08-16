@@ -25,6 +25,9 @@ $(document).ready(function() {
     } else {
       $("#ruby").show();
     }
+    $(".close").click(function() {
+        $(".modal").hide();
+      });
 
     event.preventDefault();
   });
