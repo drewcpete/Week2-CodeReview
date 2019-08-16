@@ -1,23 +1,23 @@
 $(document).ready(function() {
-
-
   $("#languageForm").submit(function(event){
+    console.log("test");
     var material = parseInt($("#question1").val());
     var emotion = parseInt($("#question2").val());
+    debugger;
     var alcohol = parseInt($("question3").val());
     var sport = parseInt($("question4").val());
     var currency = parseInt($("question5").val());
     var topping = parseInt($("question6").val());
     var avocado = parseInt($("question7").val());
-
+    console.log(material);
     var result = (material + emotion + alcohol + sport + currency + topping + avocado) % 4;
-    console.log(test1);
+    console.log(result);
 
     if (result === 0){
       $("#python").show();
     } else if ( result === 1 ) {
       $("#go").show();
-    } else if ( result ===2 ) {
+    } else if ( result === 2 ) {
       $("#sharp").show();
     } else {
       $("#ruby").show();
