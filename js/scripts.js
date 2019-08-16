@@ -8,13 +8,13 @@ $(document).ready(function() {
     var currency = parseInt($("#question5").val());
     var topping = parseInt($("#question6").val());
     var avocado = parseInt($("#question7").val());
-    console.log(material);
+    console.log(avocado);
     var result = (material + emotion + alcohol + sport + currency + topping + avocado);
 
     console.log(result);
     result = (result % 4)
     console.log(result)
-    debugger;
+    // debugger;
 
     if (result === 0){
       $("#python").show();
@@ -26,10 +26,6 @@ $(document).ready(function() {
       $("#ruby").show();
     }
 
-
-
-
-    console.log(test2);
     event.preventDefault();
   });
 });

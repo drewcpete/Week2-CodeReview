@@ -1,3 +1,26 @@
 #python, #go, #sharp, #ruby {
   display: none;
 }
+.results {
+  float: right;
+}
+.container {
+  width: 45%;
+}
+body {
+  background: rgb(114,20,177);
+background: radial-gradient(circle, rgba(114,20,177,1) 0%, rgba(24,224,142,1) 50%, rgba(252,176,69,0.8434005591054313) 100%);
+}
+.btn {
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+}
+form {
+  float: left;
+}
+
+h1 {
+  text-align: center;
+}
