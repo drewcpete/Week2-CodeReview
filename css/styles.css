@@ -5,7 +5,7 @@
   float: right;
 }
 .container {
-  width: 45%;
+
 }
 body {
   background: rgb(114,20,177);
@@ -33,7 +33,7 @@ h1 {
   transform: translate(-50%, -50%);
   width: auto;
   height:auto;
-
+  max-width: 500px;
 }
 .modal-text {
   text-align: center;
@@ -43,6 +43,5 @@ h1 {
   cursor: pointer;
 }
 label {
-  color: lightgray;
-  text-decoration-color: white;
+  
 }
