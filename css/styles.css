@@ -1,4 +1,4 @@
-.python, .go, .sharp, .ruby {
+.python, .go, .sharp, .ruby, #words {
   display: none;
 }
 .results {

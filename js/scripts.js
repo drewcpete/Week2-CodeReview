@@ -90,12 +90,13 @@ $(document).ready(function() {
     }
 
     if (avocado === 0) {
-      $("#avo").text("rage");
-    } else if (avocado === 1) {
       $("#avo").text("an ingredient");
-    } else {
+    } else if (avocado === 1) {
       $("#avo").text("a condiment");
+    } else {
+      $("#avo").text("are just avocados");
     }
+    $("#words").show();
 
 
 
