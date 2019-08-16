@@ -1,12 +1,6 @@
 .python, .go, .sharp, .ruby, #words {
   display: none;
 }
-.results {
-  float: right;
-}
-.container {
-
-}
 body {
   background-color: lightblue;
 }
@@ -20,7 +14,6 @@ body {
 form {
   float: right;
 }
-
 h1 {
   text-align: center;
 }
@@ -43,7 +36,4 @@ h1 {
 }
 .close {
   cursor: pointer;
-}
-label {
-
 }

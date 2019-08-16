@@ -10,12 +10,10 @@ $(document).ready(function() {
     var avocado = parseInt($("#question7").val());
     console.log(avocado);
     var result = (material + emotion + alcohol + sport + currency + topping + avocado);
-
     console.log(result);
     result = (result % 4)
     console.log(result)
     // debugger;
-
     if (result === 0){
       $(".python").show();
     } else if ( result === 1 ) {
@@ -96,10 +94,8 @@ $(document).ready(function() {
     } else {
       $("#avo").text("are just avocados");
     }
+
     $("#words").show();
-
-
-
     event.preventDefault();
   });
 });
